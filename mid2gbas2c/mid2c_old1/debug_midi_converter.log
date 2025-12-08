@@ -1,0 +1,101 @@
+Debug log opened.
+Event Tick: 0, Command Byte: ff, Command Nibble: 240, Message Bytes: ff 51 3 7 a1 20 
+Event Tick: 0, Command Byte: ff, Command Nibble: 240, Message Bytes: ff 58 4 4 2 18 8 
+Event Tick: 1, Command Byte: ff, Command Nibble: 240, Message Bytes: ff 2f 0 
+Event Tick: 160, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 28 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 600, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 2e 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 774, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 0 
+Event Tick: 1025, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 3c 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 1310, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 0 
+Event Tick: 1477, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 38 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 1656, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 0 
+Event Tick: 2128, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 0 
+Event Tick: 2149, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 38 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 2226, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 0 
+Event Tick: 2241, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 35 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 2346, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 37 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 2361, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 0 
+Event Tick: 2448, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 0 
+Event Tick: 2747, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 3a 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 2793, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 0 
+Event Tick: 3141, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 2f 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 3221, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 0 
+Event Tick: 3563, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 3c 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 4205, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 38 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 4258, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 0 
+Event Tick: 4406, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 3b 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 4475, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 0 
+Event Tick: 4581, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 37 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 4619, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 0 
+Event Tick: 4786, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 34 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 4802, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 0 
+Event Tick: 4956, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 0 
+Event Tick: 4971, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 30 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 5171, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 3a 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 5179, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 2f 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 5285, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 41 0 
+Event Tick: 5348, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 30 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 5368, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 40 0 
+Event Tick: 5549, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 2f 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 5549, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 40 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 5589, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 0 
+Event Tick: 5591, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 0 
+Event Tick: 5733, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 0 
+Event Tick: 5738, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 27 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 5934, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 47 49 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 5934, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 30 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 5973, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 0 
+Event Tick: 5988, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3e 0 
+Event Tick: 6118, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3b 36 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 6182, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3c 0 
+Event Tick: 6332, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 48 40 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 6333, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 3b 0 
+Event Tick: 6347, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 39 33 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 6374, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 47 0 
+Event Tick: 6399, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 39 0 
+Event Tick: 6736, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 42 3b 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 6791, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 42 0 
+Event Tick: 6912, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 48 0 
+Event Tick: 6929, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 4a 42 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 6998, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 4a 0 
+Event Tick: 7015, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 48 47 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 7110, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 48 0 
+Event Tick: 7121, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 47 45 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 7127, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 43 2e 
+[DYNAMIC] Assigned new Gigatron Channel 1 to MIDI Channel 0 (free and sequential)
+Event Tick: 7191, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 47 0 
+Event Tick: 7515, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 4c 47 
+[DYNAMIC] Assigned new Gigatron Channel 2 to MIDI Channel 0 (free and sequential)
+Event Tick: 7592, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 4c 0 
+Event Tick: 7907, Command Byte: 90, Command Nibble: 144, Message Bytes: 90 45 3f 
+Debug log closed.
