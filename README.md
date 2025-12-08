@@ -55,11 +55,7 @@ L 205:
 `
 L 178:
 `
-       def code_midi_note():
-            nohop()
-            label('.midi_note')
-            #------note----start---------------------------------------
-            
+ 
             # set note
             ADDI(0x10);STW(vLR)
             LDW('_midi.p');PEEK();INC('_midi.p');STW('_midi.cmd')
@@ -89,9 +85,9 @@ Then I also modified the makefile.
 CFLAGS=-map=64k,./music.ovl --no-runtime-bss sound.s clock.s
 `
 
-As for where this music data came from, it certainly wasn't handwritten by me. Instead, it uses a tool I previously wrote called `mid2gbas` to obtain text-formatted MID music data. The biggest difference between this and the original gbas is that it includes more complex volume modulation, waveform switching, pitch bend adjustment, and supports reading additional instrument configuration files to achieve different macro configurations for multiple instruments.
+As for where this music data came from, it certainly wasn't handwritten by me. Instead, it uses a tool I previously wrote called `mid2gbas` to obtain text-formatted MID music data. The biggest difference between this and the original gbas is that it includes more complex volume modulation, waveform switching, pitch bend adjustment, and supports reading additional instrument configuration files to achieve different macro configurations for multiple instruments.  
 
-Then I wrote a tool to convert the gbas text into C arrays, thus integrating the results of my previous research.
+Then I wrote a tool to convert the gbas text into C arrays, thus integrating the results of my previous research.  
 `
 ./midi_converter.exe bwv883f.mid bwv883f.gbas -d -time 108.5 -config midi_config.ini
 python gbas_to_c.py bwv883f.gbas
