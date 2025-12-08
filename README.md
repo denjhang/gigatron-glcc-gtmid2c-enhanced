@@ -7,13 +7,13 @@ Actually, glcc 2.6.37 already has a port of gtmid built into glcc, and most impo
 
 With the help of Claude 4.5 Sonnet, I at least understood the explanation of the D, X, N, M macros in sound.s, and after a few modifications, I successfully added the W command, which is:
 
-[code]#define W(c,n,v,w) 175+(c),(n),(v),(w) /* channel c on, note=n, wavA=v ,wavX=w*/; [/code]
+`#define W(c,n,v,w) 175+(c),(n),(v),(w) /* channel c on, note=n, wavA=v ,wavX=w*/; `
 
 This adds setting wavX (0xfb register) to modify the waveform.
 The following are modifications to sound.s to be compatible with waveform modification commands. This is not difficult, so you can continue to add pitch bend or even more complex ADSR calculations.
 
 L 205:
-[code]
+`
         def code_midi_tick():
             nohop()
             label('.midi_tick')
@@ -52,9 +52,9 @@ L 205:
             LDI(0);ST('soundTimer');STW('_midi.q')
             label('.ret')
             RET()
-[/code]
+`
 L 178:
-[code]
+`
        def code_midi_note():
             nohop()
             label('.midi_note')
@@ -82,18 +82,17 @@ L 178:
             LUP(0);ST(vLR);LDW('_midi.cmd');LUP(1);ST(vLR+1)
             LDW(vLR);DOKE('_midi.tmp');_CALLJ('.getcmd')
 
-[/code]
+`
 
 Then I also modified the makefile.
-[code]
+`
 CFLAGS=-map=64k,./music.ovl --no-runtime-bss sound.s clock.s
-[/code]
+`
 
 As for where this music data came from, it certainly wasn't handwritten by me. Instead, it uses a tool I previously wrote called `mid2gbas` to obtain text-formatted MID music data. The biggest difference between this and the original gbas is that it includes more complex volume modulation, waveform switching, pitch bend adjustment, and supports reading additional instrument configuration files to achieve different macro configurations for multiple instruments.
 
 Then I wrote a tool to convert the gbas text into C arrays, thus integrating the results of my previous research.
-[code]
+`
 ./midi_converter.exe bwv883f.mid bwv883f.gbas -d -time 108.5 -config midi_config.ini
 python gbas_to_c.py bwv883f.gbas
-[/code]
-The complete source code is here:[url]https://github.com/denjhang/gigatron-glcc-gtmid2c-enhanced[/url]
+`
