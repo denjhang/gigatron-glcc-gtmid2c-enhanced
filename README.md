@@ -12,46 +12,11 @@ With the help of Claude 4.5 Sonnet, I at least understood the explanation of the
 This adds setting wavX (0xfb register) to modify the waveform.
 The following are modifications to sound.s to be compatible with waveform modification commands. This is not difficult, so you can continue to add pitch bend or even more complex ADSR calculations.
 
-L 205:
+L 205 def code_midi_tick()::
 `
-        def code_midi_tick():
-            nohop()
-            label('.midi_tick')
-            PUSH()
-            # obtain command
-            label('.getcmd')
-            LDW('_midi.p');PEEK();_BNE('.docmd')
-            LDW('_midi.q');DEEK();_BEQ('.fin')
-            STW('_midi.p');INC('_midi.q');INC('_midi.q');_BRA('.getcmd')
-            # process command
-            label('.docmd')
-            INC('_midi.p');STW('_midi.cmd')
-            ANDI(3);INC(vACL);ST(v('_midi.tmp')+1)
-            # delay
-            LDW('_midi.cmd');SUBI(0x80);_BGE('.xcmd')
-            if args.cpu >= 7:
-                LD('_midi.cmd');ADDV('_midi.t')
-            else:
-                LD('_midi.cmd');ADDW('_midi.t');STW('_midi.t')
-            POP();RET();
-            # note off
-            label('.xcmd')
-            SUBI(0x10);_BGE('.ncmd')
-            LDI(0xfc);ST('_midi.tmp')
-            LDI(0);DOKE('_midi.tmp');_BRA('.getcmd')
-            # note on
-            label('.ncmd')
+        
             SUBI(0x24) # Adjusted to include W(c,n,v,w) 
-            if args.cpu >= 6:
-                JLT('.midi_note')
-            else:
-                _BGE('.fin');CALLI('.midi_note')
-            # end
-            label('.fin')
-            POP();POP() # pop one more level
-            LDI(0);ST('soundTimer');STW('_midi.q')
-            label('.ret')
-            RET()
+
 `
 L 178:
 `
